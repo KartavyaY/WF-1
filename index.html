@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dead Goods</title>
+    <style>
+        /* --- General Body & Font Styles --- */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #90b890; /* Light green background for the whole page */
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* --- Main Page Wrapper --- */
+        .container {
+            width: 980px;
+            margin: 20px auto; /* Center the layout */
+            background-color: #ffffff; /* White background for the main content area */
+            border: 1px solid #555;
+        }
+
+        /* --- Header Section --- */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #90b890; /* Match the body background */
+        }
+
+        .red-box {
+            width: 80px;
+            height: 80px;
+            background-color: #cc0000;
+            margin-right: 20px;
+        }
+
+        header h1 {
+            font-family: "Times New Roman", Times, serif;
+            color: #cc0000;
+            font-style: italic;
+            font-size: 48px;
+            margin: 0;
+        }
+
+        /* --- Main Banner Image --- */
+        .banner-image img {
+            width: 100%;
+            display: block; /* Removes bottom space under the image */
+        }
+
+        /* --- Main Navigation Bar --- */
+        nav.main-nav {
+            background-color: #000000;
+            padding: 8px 10px;
+        }
+
+        nav.main-nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+        }
+
+        nav.main-nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+
+        nav.main-nav ul li a:hover {
+            background-color: #333;
+        }
+        
+        /* --- Content Layout (Sidebar + Main) --- */
+        .content-area {
+            display: flex;
+            padding: 15px;
+        }
+
+        /* --- Left Sidebar --- */
+        aside.sidebar {
+            width: 220px;
+            margin-right: 20px;
+        }
+
+        .sidebar-palm img {
+            width: 100%;
+        }
+
+        .member-login {
+            background-color: #3e3e3e;
+            color: #ffffff;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .member-login h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+            border-bottom: 1px solid #666;
+            padding-bottom: 5px;
+        }
+
+        .member-login label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .member-login input[type="text"],
+        .member-login input[type="password"] {
+            width: calc(100% - 10px);
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #000;
+        }
+
+        .member-login input[type="submit"] {
+            background-color: #ccc;
+            border: 1px outset #aaa;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        /* --- Main Content Section --- */
+        main.main-article {
+            flex: 1; /* Takes up remaining space */
+        }
+
+        .main-article h2 {
+            text-align: left;
+            font-size: 20px;
+            color: #000;
+            margin-top: 0;
+        }
+        
+        .main-article p {
+            line-height: 1.6;
+        }
+        
+        .main-article img {
+            max-width: 100%;
+            margin: 15px 0;
+        }
+
+        /* --- Footer Section --- */
+        footer {
+            padding: 15px;
+            border-top: 2px solid #eee;
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: #666;
+        }
+
+        nav.footer-nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+        }
+
+        nav.footer-nav ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 0 10px;
+            border-right: 1px solid #ccc;
+        }
+        
+        nav.footer-nav ul li:first-child a {
+            padding-left: 0;
+        }
+
+        nav.footer-nav ul li:last-child a {
+            border-right: none;
+        }
+        
+        .footer-top .fern img {
+            height: 40px;
+        }
+
+        .footer-bottom {
+            display: flex;
+            align-items: center;
+            background-color: #e0e0e0;
+            padding: 10px;
+            margin: 15px -15px -15px -15px; /* Extend to edges of the container */
+        }
+
+        .footer-bottom img {
+            height: 40px;
+            margin-right: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header with red box and title -->
+        <header>
+            <div class="red-box"></div>
+            <h1>The Dead Goods</h1>
+        </header>
+
+        <!-- Main banner image of truck and cattle -->
+        <div class="banner-image">
+            <img src="http://googleusercontent.com/file_content/0" alt="A toy truck with trailers and toy cattle">
+        </div>
+
+        <!-- Main navigation bar -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">The Band</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content area with sidebar and article -->
+        <div class="content-area">
+
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-palm">
+                    <img src="https://placehold.co/220x150/ffffff/ffffff?text=+" alt="Palm leaf decoration">
+                </div>
+                <div class="member-login">
+                    <h3>Member Login</h3>
+                    <form>
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </aside>
+
+            <!-- Main Article Content -->
+            <main class="main-article">
+                <h2>Introduction to The Dead Goods</h2>
+                <p>
+                    After many years of producing and performing, this was to be Bill's first major orchestral composition. Through music, Bill tells the historical story of the legendary Red Hugh O'Donnell and his journey, after his defeat at the Battle of Kinsale, to La Coruna in Spain. Performed by a 50-piece orchestra, the piece featured soloists Davy Spillane, Martin O'Connor, Mel Mercier and Mairead Nesbitt, many...
+                </p>
+                <img src="https://placehold.co/600x200/cccccc/969696?text=Guitar+Image" alt="Acoustic guitar on a rustic background">
+                
+                <h2>22/06 Jimi and john Announce Tour</h2>
+                <p>
+                    The Seville Suite album also contains the much requested title "Timedance" by Planxty. This re-recording assembles the original musicians including Liam O'Flynn, Andy Irvine and Donal Lunny as well as Nollaig Casey on fiddle. The Seville Suite album also contains the much requested title "Timedance" by Planxty.
+                </p>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-top">
+                <div>
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">The Band</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Music</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Forum</a></li>
+                        </ul>
+                    </nav>
+                    <p>Copyright 2006 Colly Logic Records</p>
+                    <p>Current version: 278 | Highest: 1457 on 22/06/06</p>
+                </div>
+                <div class="fern">
+                    <img src="https://placehold.co/80x60/ffffff/ffffff?text=+" alt="Fern leaf decoration">
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Bottom-most footer bar -->
+        <div class="footer-bottom">
+            <img src="https://placehold.co/40x40/e0e0e0/000000?text=CL" alt="Colly Logic Logo">
+            <span>colly logic</span>
+        </div>
+
+    </div>
+
+</body>
+</html>
