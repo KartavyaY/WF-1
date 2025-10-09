@@ -1,0 +1,49 @@
+/* General body styles for better appearance */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  background-color: #f4f4f4;
+}
+
+/* Style for the App component's container div */
+.app-container {
+  border: 1px solid #ccc;
+  padding: 20px 30px;
+  border-radius: 30px;
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the Header component's h2 element */
+.app-container h2 {
+  color: #0797a2;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Style for the Password component's input element */
+.app-container input {
+  font-size: 15px;
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Additional styling for the progress bar to look better */
+.app-container progress {
+  width: 65%;
+  height: 20px;
+}
+
+/* Styling for the paragraph tags in StrengthCriteria for better spacing */
+.app-container p {
+    margin: 8px 0;
+}
